@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: Arial, sans-serif;
+    background-color: #424141;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header div {
+    background-color: rgb(0, 4, 7);
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    text-align: left;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: 'Helvetica Neue';
+    
+}
+header img{
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Square Grid with background image */
+
+
+/* Styles for the grid and login section remain the same */
+
+/* Styles for the grid and login section remain the same */
+
+.overlay-content {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.brand-container {
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center the content */
+    align-items: center; /* Vertically align the logo and text */
+    margin-top: 10px; /* Add space between logo and text */
+}
+
+.brand-name {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-right: 10px; /* Space between brand name and logo */
+}
+
+.logo {
+    width: 100px; /* Adjust logo size */
+    height: auto; /* Keep aspect ratio */
+    margin: 0 10px; /* Space between logo and text */
+}
+
+.tagline {
+    font-size: 60px;
+    color: white;
+    font-style: italic; /* Optional: for different style for tagline */
+}
+
+
+
+.square-grid h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgb(249, 247, 247);
+    margin-top: 10px; /* Space between "Beyond Fashion" and brand name */
+}
+
+/* Login Section */
+.login-section {
+    position: absolute;
+    top: 60%; /* Adjust this value to control vertical positioning of login box */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for better overlay effect */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(85, 84, 84, 0.1);
+    text-align: center;
+}
+
+/* Login Form Styling */
+.login-box h2 {
+    margin-bottom: 20px;
+    color: #0b8e28;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 15px;
+    color: #000000;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #e6dbdb;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+.input-group .btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.forgot-signup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.forgot-signup a {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.forgot-signup a:hover {
+    text-decoration: underline;
+}
